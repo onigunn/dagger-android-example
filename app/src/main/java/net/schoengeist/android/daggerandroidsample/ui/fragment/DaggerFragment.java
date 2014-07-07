@@ -1,10 +1,9 @@
-package android.schoengeist.net.daggerandroidsample.ui.fragment;
+package net.schoengeist.android.daggerandroidsample.ui.fragment;
 
-import android.app.Fragment;
 import android.app.ListFragment;
 import android.os.Bundle;
-import android.schoengeist.net.daggerandroidsample.DaggerApplication;
-import android.schoengeist.net.daggerandroidsample.R;
+import net.schoengeist.android.daggerandroidsample.DaggerApplication;
+import net.schoengeist.android.daggerandroidsample.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

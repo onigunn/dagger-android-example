@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.schoengeist.net.daggerandroidsample" >
+    package="net.schoengeist.android.daggerandroidsample" >
 
     <application
-        android:name=".DaggerApplication"
+        android:name="net.schoengeist.android.daggerandroidsample.DaggerApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ui.activity.DaggerActivity"
+            android:name="net.schoengeist.android.daggerandroidsample.ui.activity.DaggerActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,9 +1,9 @@
-package android.schoengeist.net.daggerandroidsample.ui.activity;
+package net.schoengeist.android.daggerandroidsample.ui.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.schoengeist.net.daggerandroidsample.R;
-import android.schoengeist.net.daggerandroidsample.ui.fragment.DaggerFragment;
+import net.schoengeist.android.daggerandroidsample.R;
+import net.schoengeist.android.daggerandroidsample.ui.fragment.DaggerFragment;
 import android.view.Menu;
 import android.view.MenuItem;
 

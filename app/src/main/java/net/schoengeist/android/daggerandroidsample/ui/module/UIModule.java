@@ -1,6 +1,6 @@
-package android.schoengeist.net.daggerandroidsample.ui.module;
+package net.schoengeist.android.daggerandroidsample.ui.module;
 
-import android.schoengeist.net.daggerandroidsample.ui.fragment.DaggerFragment;
+import net.schoengeist.android.daggerandroidsample.ui.fragment.DaggerFragment;
 
 import dagger.Module;
 

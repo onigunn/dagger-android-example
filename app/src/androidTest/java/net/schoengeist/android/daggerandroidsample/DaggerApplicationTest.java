@@ -1,4 +1,4 @@
-package android.schoengeist.net.daggerandroidsample;
+package net.schoengeist.android.daggerandroidsample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

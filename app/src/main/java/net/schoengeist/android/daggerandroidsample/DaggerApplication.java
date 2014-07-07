@@ -1,8 +1,7 @@
-package android.schoengeist.net.daggerandroidsample;
+package net.schoengeist.android.daggerandroidsample;
 
 import android.app.Application;
 import android.content.Context;
-import android.schoengeist.net.daggerandroidsample.Modules;
 
 import dagger.ObjectGraph;
 

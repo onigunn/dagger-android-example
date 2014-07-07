@@ -1,9 +1,8 @@
-package android.schoengeist.net.daggerandroidsample.ui.module;
+package net.schoengeist.android.daggerandroidsample.ui.module;
 
 import android.content.Context;
-import android.schoengeist.net.daggerandroidsample.DaggerApplication;
-import android.schoengeist.net.daggerandroidsample.R;
-import android.schoengeist.net.daggerandroidsample.ui.activity.DaggerActivity;
+import net.schoengeist.android.daggerandroidsample.DaggerApplication;
+
 import android.widget.ArrayAdapter;
 
 import dagger.Module;

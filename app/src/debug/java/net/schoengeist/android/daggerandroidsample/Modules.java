@@ -1,8 +1,6 @@
-package android.schoengeist.net.daggerandroidsample;
+package net.schoengeist.android.daggerandroidsample;
 
-import android.app.Application;
-import android.content.Context;
-import android.schoengeist.net.daggerandroidsample.ui.module.ApplicationModule;
+import net.schoengeist.android.daggerandroidsample.ui.module.ApplicationModule;
 
 /**
  * Created by onur.guengoeren <guengoeren@schoengeist.net>
