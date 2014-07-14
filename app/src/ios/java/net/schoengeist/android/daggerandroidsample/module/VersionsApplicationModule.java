@@ -21,7 +21,7 @@ public class VersionsApplicationModule {
     @Provides
     public ArrayAdapter<String> providesArrayAdapter(Context context) {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1);
-        adapter.addAll("Android 4.4 (API 19)", "Android 4.3 (API 18)", "Android 4.2, 4.2.2 (API 17)");
+        adapter.addAll("iPhone OS", "iOS 3", "iOS 4", "iOS 5", "iOS 6", "iOS 7", "iOS 8");
         return adapter;
     }
 }

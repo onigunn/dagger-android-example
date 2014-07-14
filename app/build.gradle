@@ -17,8 +17,8 @@ android {
             applicationIdSuffix '.debug'
         }
 
-        versions.initWith(debug)
-        versions {
+        ios.initWith(debug)
+        ios {
             applicationIdSuffix '.versions'
         }
 

@@ -1,9 +1,9 @@
 package net.schoengeist.android.daggerandroidsample.ui.module;
 
 import android.content.Context;
-import net.schoengeist.android.daggerandroidsample.DaggerApplication;
-
 import android.widget.ArrayAdapter;
+
+import net.schoengeist.android.daggerandroidsample.DaggerApplication;
 
 import dagger.Module;
 import dagger.Provides;
@@ -30,9 +30,7 @@ public class ApplicationModule {
     @Provides
     public ArrayAdapter<String> providesArrayAdapter(Context context) {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1);
-        adapter.addAll("STS-1 Launch @ Kennedy Space Center – April 12, 1981",
-                " Apollo 11 Launch @ Kennedy Space Center – July 16, 1969",
-                "STS-66 Launch @ Kennedy Space Center – November 3, 1994");
+        adapter.addAll("Android 4.4 (API 19)", "Android 4.3 (API 18)", "Android 4.2, 4.2.2 (API 17)");
         return adapter;
     }
 
